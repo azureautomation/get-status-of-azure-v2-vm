@@ -1,0 +1,20 @@
+{
+    "Author": "Azure Automation Product Team",
+    "ContentSize": 43770,
+    "ContentUrl": "https://raw.githubusercontent.com/azureautomation/get-status-of-azure-v2-vm/master/GetAzureV2VmStatus.graphrunbook",
+    "DownloadCount": 1477,
+    "Id": "Get-Status-of-Azure-V2-Vm-4f628983",
+    "IsFederated": true,
+    "IsWorkflow": false,
+    "Popularity": 158,
+    "RaterCount": 1,
+    "Rating": 5.0,
+    "ReleaseDate": "2016-5-21T00:00:00",
+    "RunbookKind": 3,
+    "RunbookKindString": "Graphical Powershell",
+    "Summary": "This Graphical PowerShell runbook gets the PowerState status of a V2 VM. \u00a0The runbook returns either 'running' or 'stopped'. \u00a0You can run this runbook by itself or use it as part of another runbook.",
+    "Title": "Get Status of Azure V2 Vm",
+    "UpdatedDate": "2016-7-1T00:00:00",
+    "Url": "https://github.com/azureautomation/get-status-of-azure-v2-vm",
+    "UserTags": "Windows Azure Virtual Machines, Azure Automation, GraphicalPS"
+}
