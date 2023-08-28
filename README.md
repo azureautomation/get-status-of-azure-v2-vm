@@ -52,8 +52,6 @@ LAST EDIT
  
 
 
- 
-
  ![Image](https://github.com/Bonnie-Chen95/get-status-of-azure-v2-vm/blob/master/GetAzureV2VmStatus_new.png)
 
         
