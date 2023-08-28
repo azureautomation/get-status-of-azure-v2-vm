@@ -19,7 +19,7 @@ REQUIRED
 - ResourceGroupName input parameter.  Specify the name of the resource group for the VM.
 
 
-- An Automation Connection asset called AzureRunAsConnection that contains the information for connecting with Azure using a service principal.  This is required only if LoginToAzure is $true.
+- An Automation Account system assigned managed identity.  This is required only if LoginToAzure is $true.
 
 
 OPTIONAL
@@ -28,15 +28,13 @@ OPTIONAL
 - LoginToAzure input parameter.  Default is $true.  Set the value to $false to bypass the authentication.
 
 
-- AzureConnectionAssetName  input parameter.  Default is 'AzureRunAsConnection'.  If you want to use a different Connection asset, then set the value to the name of that asset.
 
 
 
 NOTES
 
 
-- This runbook can be used either by itself or called from another runbook.  The input parameter LoginToAzure allows the user to decide if authentication to azure is needed or not.  When this runbook is called from another runbook that has already
- authenticated with Azure, then this runbook does not need to repeat the work.
+- This runbook can be used either by itself or called from another runbook.  The input parameter LoginToAzure allows the user to decide if authentication to azure is needed or not.  When this runbook is called from another runbook that has already authenticated with Azure, then this runbook does not need to repeat the work.
 
 
 AUTHOR
@@ -48,7 +46,7 @@ Azure Automation Team 
 LAST EDIT
 
 
-2016-5-21
+2023-08-28
 
 
  
@@ -56,7 +54,7 @@ LAST EDIT
 
  
 
- ![Image](https://github.com/azureautomation/get-status-of-azure-v2-vm/raw/master/GetAzureV2VmStatus.png)
+ ![Image](https://github.com/azureautomation/get-status-of-azure-v2-vm/raw/master/GetAzureV2VmStatus_new.png)
 
         
     
